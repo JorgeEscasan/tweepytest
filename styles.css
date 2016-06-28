@@ -6,7 +6,9 @@ body {
 .cat {
   background-color: #4CE0D2;
   text-align: center;
-  margin: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10%;
   display: inline-block;
   height: 200px;
   width: 420px;
@@ -15,9 +17,18 @@ body {
 .dog {
   background-color: #4CE0D2;
   text-align: center;
-  margin: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10%;
   display: inline-block;
   height: 200px;
   width: 420px;
 
+}
+
+.heading {
+  text-align: center;
+  font-size: 80px;
+  margin: auto;
+  color: #6BFFB8;
 }
