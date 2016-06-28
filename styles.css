@@ -1,0 +1,23 @@
+body {
+  font-family: Arial;
+  background: #EFBCD5;
+}
+
+.cat {
+  background-color: #4CE0D2;
+  text-align: center;
+  margin: 15%;
+  display: inline-block;
+  height: 200px;
+  width: 420px;
+}
+
+.dog {
+  background-color: #4CE0D2;
+  text-align: center;
+  margin: 15%;
+  display: inline-block;
+  height: 200px;
+  width: 420px;
+
+}
