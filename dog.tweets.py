@@ -18,5 +18,5 @@ class listener(StreamListener):
 
 auth = OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
-twitterSteam = Stream(auth, listener())
-twitterSteam.filter(track=["cat"])
+twitterStream = Stream(auth, listener())
+twitterStream.filter(track=["dog"])

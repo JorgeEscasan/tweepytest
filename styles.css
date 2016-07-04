@@ -8,12 +8,12 @@ body {
 /*  background-color: #4CE0D2;*/
   background-color: white;
   text-align: center;
-  margin-left: 13.7%;
-  margin-right: 13.7%;
-  margin-top: 5%;
+  margin-left: 13.7em;
+  margin-right: 5.05em;
+  margin-top: 1em;
   display: inline-block;
-  height: 475px;
-  width: 475px;
+  height: 25em;
+  width: 25em;
   border-radius: 50%;
 }
 
@@ -29,12 +29,12 @@ body {
 /*  background-color: #4CE0D2;*/
   background-color: white;
   text-align: center;
-  margin-left: 13.7%;
-  margin-right: 13.7%;
-  margin-top: 5%;
+  margin-left: 6em;
+  margin-right: 12em;
+  margin-top: 1em;
   display: inline-block;
-  height: 475px;
-  width: 475px;
+  height: 25em;
+  width: 25em;
   border-radius: 50%;
 }
 
