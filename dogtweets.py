@@ -1,6 +1,7 @@
 from tweepy import Stream
 from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
+import thread
 
 
 ckey = '9aj4GEuESp7ZQUROeoSQFXfrH'
@@ -12,14 +13,18 @@ dog = 0
 class listener(StreamListener):
 
     def on_data(self, data):
+        global dog
         dog = len(data)
-        print len(data)
+        print dog
         return True
 
     def on_error(self, status):
         print (status)
 
-auth = OAuthHandler(ckey, csecret)
-auth.set_access_token(atoken, asecret)
-twitterStream = Stream(auth, listener())
-twitterStream.filter(track=["dog"])
+def initFunction():
+    auth = OAuthHandler(ckey, csecret)
+    auth.set_access_token(atoken, asecret)
+    twitterStream = Stream(auth, listener())
+    twitterStream.filter(track=["dog"])
+
+thread.start_new_thread(initFunction,())
